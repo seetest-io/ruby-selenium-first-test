@@ -11,10 +11,10 @@ class Example < Test::Unit::TestCase
         javascript_enabled: true,
         css_selectors_enabled: true,
         # In order to use the grid code generation, you need to be connected to the cloud
-        :accessKey=> 'eyJ4cC51Ijo0LCJ4cC5wIjoyLCJ4cC5tIjoiTVRVd09UVXlNVFkwT1RFeE1nIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4MzA2ODc0MTksImlzcyI6ImNvbS5leHBlcml0ZXN0In0.OH5l0zjt5pIGFIRsuwpXWuDrMXsQAND2AJEEw-hc3y8'
+        :accessKey=> ''
     }
 
-    @driver = Selenium::WebDriver.for(:remote, :url => 'http://mastercloud/wd/hub', :desired_capabilities => desired_caps)
+    @driver = Selenium::WebDriver.for(:remote, :url => 'https://cloud.seetest.io', :desired_capabilities => desired_caps)
   end
 
   def test_selenium_on_chrome
