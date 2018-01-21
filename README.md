@@ -3,17 +3,17 @@ This repository contains a sample Selenium test written in Ruby.
 
 To execute the tests, in your command line the following:
 
-##Chrome
+## Chrome
 '''
 ruby selenium-on-chrome.rb
 '''
 
-##Firefox
+## Firefox
 '''
 selenium-on-firefox.rb
 '''
 
-##IE
+## IE
 '''
 selenium-on-ie.rb
 '''
