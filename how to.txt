@@ -1,0 +1,5 @@
+1. Instal ruby 2.4
+2. Run from cmd: gem install selenium-webdriver
+3. Run from cmd: gem install test
+4. Run from cmd: ruby example_test.rb
+
